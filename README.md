@@ -1,5 +1,4 @@
 # MCOC-Synergies
-Initial commit
 
 Marvel Contest of Champions synergy graph created using a D3.js force layout.
 
