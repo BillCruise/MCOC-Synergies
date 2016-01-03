@@ -140,7 +140,7 @@
 	</div>
 	<script type="text/javascript">
 		var w = 1200, h = 1000;
-	
+		/* Character images from http://marvel-contestofchampions.wikia.com/wiki/List_of_Champions */
 		var data = {
 			nodes: {
 				"Black Bolt": { name: "Black Bolt", class: "cosmic", 
@@ -151,6 +151,8 @@
 				  image: "images/Drax.png" },
 				"Gamora": { name: "Gamora", class: "cosmic", 
 				  image: "images/Gamora.png" },
+				"Groot": { name: "Groot", class: "cosmic", 
+				  image: "images/Groot.png" },
 				"Ms. Marvel": { name: "Ms. Marvel", class: "cosmic", 
 				  image: "images/Ms_Marvel.png" },
 				"Ronan": { name: "Ronan", class: "cosmic", 
@@ -258,6 +260,7 @@
 				
 			},
 			edges: [
+				/* Synergy bonuses from http://marvel-contestofchampions.wikia.com/wiki/Synergy_Bonus */
 				// Avengers
 				{ source: "Black Widow", target: "Hulk", type: "stun" },
 				
@@ -302,6 +305,7 @@
 				{ source: "Electro", target: "Rhino", type: "friends" },
 				{ source: "Elektra", target: "Wolverine", type: "friends" },
 				{ source: "Gamora", target: "Star-Lord", type: "friends" },
+				{ source: "Groot", target: "Star-Lord", type: "friends" },
 				{ source: "Guillotine", target: "Black Panther", type: "friends" },
 				{ source: "Hawkeye", target: "Hulk", type: "friends" },
 				{ source: "Hawkeye", target: "Iron Man", type: "friends" },
@@ -344,6 +348,9 @@
 				
 				// Heroes for Hire
 				{ source: "Luke Cage", target: "Iron Fist", type: "block" },
+				
+				// Inseperable
+				{ source: "Groot", target: "Rocket Raccoon", type: "attack" },
 				
 				// Leadership
 				{ source: "Black Bolt", target: "Cyclops", type: "block" },
@@ -417,6 +424,8 @@
 				{ source: "Elektra", target: "Deadpool", type: "block" },
 				{ source: "Drax", target: "Star-Lord", type: "block" },
 				{ source: "Guillotine", target: "Captain America WWII", type: "block" },
+				{ source: "Groot", target: "Drax", type: "block" },
+				{ source: "Groot", target: "Gamora", type: "block" },
 				{ source: "Iron Man", target: "Thor", type: "block" },
 				{ source: "Luke Cage", target: "Daredevil", type: "block" },
 				{ source: "Magik", target: "Cyclops", type: "block" },
