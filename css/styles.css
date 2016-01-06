@@ -1,0 +1,118 @@
+body {
+	background-color: #ddd;
+}
+
+/* Legend */
+rect {
+	stroke: #333;
+	stroke-width: 1px;
+}
+
+/* Character bubbles */
+circle {
+	fill: #bbb;
+	stroke: #333;
+	stroke-width: 1.5px;
+}
+circle.mutant {
+	fill: #E5C100;
+}
+circle.skill {
+	fill: #DA1C19;
+}
+circle.science {
+	fill: #00941D;
+}
+circle.mystic {
+	fill: #9A27D8;
+}
+circle.cosmic {
+	fill: #00BBFF;
+}
+circle.technology {
+	fill: #1D2AD7;
+}
+
+/* Graph edges */
+.link {
+	fill: none;
+	stroke: #333;
+	stroke-width: 1.5px;
+}
+
+.link.power_gain {
+	stroke: red;
+}
+#power_gain {
+	fill: red;
+}
+
+.link.armor {
+	stroke: blue;
+}
+#armor {
+	fill: blue;
+}
+
+.link.critical_damage {
+	stroke: yellow;
+}
+#critical_damage {
+	fill: yellow;
+}
+
+.link.block {
+	stroke: #1E90FF; /* Dodger blue */
+}
+#block {
+	fill: #1E90FF;
+}
+
+.link.health {
+	stroke: green;
+}
+#health {
+	fill: green;
+}
+
+.link.crit_rate {
+	stroke: #9A27D8;
+}
+#crit_rate {
+	fill: #9A27D8;
+}
+
+.link.attack {
+	stroke: orange;
+}
+#attack {
+	fill: orange;
+}
+
+.link.stun {
+	stroke: magenta;
+}
+#stun {
+	fill: magenta;
+}
+
+.link.friends {
+	stroke: lime;
+}
+#friends {
+	fill: lime;
+}
+
+.link.inseparable {
+	stroke: #444;
+}
+#inseparable {
+	fill: #444;
+}
+
+/* Character names */
+text {
+	font: 12px sans-serif;
+	pointer-events: none;
+	text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
