@@ -41,31 +41,31 @@ circle.technology {
 }
 
 .link.power_gain {
-	stroke: red;
+	stroke: #9A27D8;
 }
 #power_gain {
-	fill: red;
+	fill: #9A27D8;
 }
 
 .link.armor {
-	stroke: blue;
+	stroke: #1E90FF; /* Dodger blue */
 }
 #armor {
-	fill: blue;
+	fill: #1E90FF;
 }
 
 .link.critical_damage {
-	stroke: yellow;
+	stroke: orange;
 }
 #critical_damage {
-	fill: yellow;
+	fill: orange;
 }
 
 .link.block {
-	stroke: #1E90FF; /* Dodger blue */
+	stroke: blue;
 }
 #block {
-	fill: #1E90FF;
+	fill: blue;
 }
 
 .link.health {
@@ -76,17 +76,17 @@ circle.technology {
 }
 
 .link.crit_rate {
-	stroke: #9A27D8;
+	stroke: yellow;
 }
 #crit_rate {
-	fill: #9A27D8;
+	fill: yellow;
 }
 
 .link.attack {
-	stroke: orange;
+	stroke: red;
 }
 #attack {
-	fill: orange;
+	fill: red;
 }
 
 .link.stun {
