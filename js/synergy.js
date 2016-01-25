@@ -27,6 +27,8 @@ function synergy() {
 			  image: "images/Venom.png" },
 			"Colossus": { name: "Colossus", class: "mutant", 
 			  image: "images/Colossus.png" },
+			"Cyclops Classic": { name: "Cyclops Classic", class: "mutant", 
+			  image: "images/Cyclops_Classic.png" },
 			"Cyclops": { name: "Cyclops", class: "mutant", 
 			  image: "images/Cyclops.png" },
 			"Deadpool": { name: "Deadpool", class: "mutant", 
