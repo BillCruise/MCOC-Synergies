@@ -39,6 +39,8 @@ function synergy() {
 			  image: "images/Magneto.png" },
 			"Magneto (Marvel Now)": { name: "Magneto (Marvel Now)", class: "mutant", 
 			  image: "images/Magneto_Marvel_Now.png" },
+			"Old Man Logan": { name: "Old Man Logan", class: "mutant", 
+			  image: "images/Old_Man_Logan.png" },
 			"Storm": { name: "Storm", class: "mutant", 
 			  image: "images/Storm.png" },
 			"Wolverine": { name: "Wolverine", class: "mutant", 
