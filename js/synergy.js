@@ -81,6 +81,8 @@ function synergy() {
 			  image: "images/Luke_Cage.png" },
 			"Rhino": { name: "Rhino", class: "science", 
 			  image: "images/Rhino.png" },
+			"She-Hulk": { name: "She-Hulk", class: "science", 
+			  image: "images/She-Hulk.png" },
 			"Spider-Gwen": { name: "Spider-Gwen", class: "science", 
 			  image: "images/Spider-Gwen.png" },
 			"Spider-Man": { name: "Spider-Man", class: "science", 
