@@ -3,6 +3,7 @@ function synergy() {
 	/* Character images from http://marvel-contestofchampions.wikia.com/wiki/List_of_Champions */
 	var data = {
 		nodes: {
+			// Cosmic
 			"Black Bolt": { name: "Black Bolt", class: "cosmic", 
 			  image: "images/Black_Bolt.png" },
 			"Captain Marvel": { name: "Captain Marvel", class: "cosmic", 
@@ -27,6 +28,8 @@ function synergy() {
 			  image: "images/Venom.png" },
 			"Venompool": { name: "Venompool", class: "cosmic", 
 			  image: "images/Venompool.png" },
+			  
+			// Mutant
 			"Colossus": { name: "Colossus", class: "mutant", 
 			  image: "images/Colossus.png" },
 			"Cyclops Classic": { name: "Cyclops Classic", class: "mutant", 
@@ -47,6 +50,10 @@ function synergy() {
 			  image: "images/Storm.png" },
 			"Wolverine": { name: "Wolverine", class: "mutant", 
 			  image: "images/Wolverine.png" },
+			"X-23": { name: "X-23", class: "mutant", 
+			  image: "images/X-23.png" },
+			  
+			// Mystic
 			"Dr. Strange": { name: "Dr. Strange", class: "mystic", 
 			  image: "images/Doctor_Strange.png" },
 			"Guillotine": { name: "Guillotine", class: "mystic", 
@@ -63,6 +70,8 @@ function synergy() {
 			  image: "images/Thor_Jane.png" },
 			"Unstoppable Colossus": { name: "Unstoppable Colossus", class: "mystic", 
 			  image: "images/Unstoppable_Colossus.png" },
+			  
+			// Science
 			"Abomination": { name: "Abomination", class: "science", 
 			  image: "images/Abomination.png" },
 			"Ant-Man": { name: "Ant-Man", class: "science", 
@@ -91,6 +100,8 @@ function synergy() {
 			  image: "images/Spider-Man_Morales.png" },
 			"Yellowjacket": { name: "Yellowjacket", class: "science",
 			  image: "images/Yellowjacket.png" },
+			  
+			// Skill
 			"Black Panther": { name: "Black Panther", class: "skill", 
 			  image: "images/Black_Panther.png" },
 			"Black Widow": { name: "Black Widow", class: "skill", 
@@ -109,6 +120,8 @@ function synergy() {
 			  image: "images/Punisher.png" },
 			"Winter Soldier": { name: "Winter Soldier", class: "skill", 
 			  image: "images/Winter_Soldier.png" },
+			  
+			// Technology
 			"Hulkbuster": { name: "Hulkbuster", class: "technology", 
 			  image: "images/Hulkbuster.png" },
 			"Iron Man": { name: "Iron Man", class: "technology", 
